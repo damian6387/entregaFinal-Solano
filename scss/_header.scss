@@ -18,19 +18,26 @@ header {
   }
 
   .styleLinks {
-    padding-left: 120px;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
+  #styleNav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*
   .cageHeight {
     height: 100px;
   }
-
+  
   .trans {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  }*/
 
   .trans:hover {
     transition: all 0.2s;
@@ -68,6 +75,18 @@ header {
     }
     h6 {
       font-size: 60%;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .styleLinks {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .styleNav {
+      display: flex;
+      justify-content: space-between;
     }
   }
 }

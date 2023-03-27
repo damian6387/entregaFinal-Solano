@@ -1,5 +1,15 @@
 header {
-  background-color: #000000; }
+  background-color: #000000;
+  /*
+  .cageHeight {
+    height: 100px;
+  }
+  
+  .trans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }*/ }
   header .logo {
     height: 90px;
     width: 90px; }
@@ -11,14 +21,12 @@ header {
     display: flex;
     align-items: center; }
   header .styleLinks {
-    padding-left: 120px;
-    height: 100px; }
-  header .cageHeight {
-    height: 100px; }
-  header .trans {
     display: flex;
-    align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
+  header #styleNav {
+    display: flex;
+    justify-content: space-between; }
   header .trans:hover {
     transition: all 0.2s;
     border-bottom: solid #1dbd45 3px; }
@@ -43,6 +51,14 @@ header {
       font-size: 60%; }
     header h6 {
       font-size: 60%; } }
+  @media screen and (max-width: 991px) {
+    header .styleLinks {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+    header .styleNav {
+      display: flex;
+      justify-content: space-between; } }
 
 body {
   margin: 0;
