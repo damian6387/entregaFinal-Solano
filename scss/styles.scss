@@ -98,6 +98,22 @@ input {
   }
 }
 
+/*------------------------------------NOSOTROS---------------------------*/
+
+.textCage2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  color: #ffff;
+  font-size: 4vh;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
 /*------------------------------- EXTRAS MEDIA QUERY-----------------------------------*/
 
 @media screen and (max-width: 470px) {

@@ -1,15 +1,5 @@
 header {
-  background-color: #000000;
-  /*
-  .cageHeight {
-    height: 100px;
-  }
-  
-  .trans {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }*/ }
+  background-color: #000000; }
   header .logo {
     height: 90px;
     width: 90px; }
@@ -155,6 +145,19 @@ input {
   .borderStyle .styleImage {
     width: 70%;
     height: 70%; }
+
+/*------------------------------------NOSOTROS---------------------------*/
+.textCage2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  color: #ffff;
+  font-size: 4vh;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
 
 /*------------------------------- EXTRAS MEDIA QUERY-----------------------------------*/
 @media screen and (max-width: 470px) {
