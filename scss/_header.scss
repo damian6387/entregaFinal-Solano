@@ -6,8 +6,20 @@ header {
     width: 90px;
   }
 
+  .logo:hover {
+    transform: scale(1.05, 1.05);
+  }
+
+  .logoStyle {
+    margin-right: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .alignText {
-    padding-left: 12px;
+    padding-top: 8px;
+    padding-left: 15px;
     display: flex;
     flex-direction: column;
   }
@@ -21,23 +33,18 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  #styleNav {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .trans:hover {
-    transition: all 0.2s;
-    border-bottom: solid #1dbd45 3px;
+    font-size: 100%;
   }
 
   .styleFont {
     color: #ffff;
-    font-size: 90%;
     font-weight: bold;
     margin: 10px;
+  }
+
+  .styleFont:hover {
+    transition: all 0.1s;
+    border-bottom: solid rgb(24, 155, 89) 3px;
   }
 
   #menuBurguer {
@@ -45,37 +52,38 @@ header {
   }
 
   h4 {
-    color: #ffff;
-    font-weight: bold;
+    font-family: "Courgette", cursive;
+    color: #ffffff;
+    text-shadow: -1px -1px 0 rgb(9, 51, 30), 1px -1px 0 rgb(9, 51, 30),
+      -1px 1px 0 rgb(9, 51, 30), 1px 1px 0 rgb(9, 51, 30);
   }
 
   h6 {
     color: #ffff;
     font-weight: bold;
+    text-shadow: -1px -1px 0 rgb(9, 51, 30), 1px -1px 0 rgb(9, 51, 30),
+      -1px 1px 0 rgb(9, 51, 30), 1px 1px 0 rgb(9, 51, 30);
   }
 
   @media screen and (max-width: 470px) {
     .logo {
-      width: 60px;
-      height: 60px;
+      width: 70px;
+      height: 70px;
     }
     h4 {
-      font-size: 60%;
+      font-size: 70%;
     }
     h6 {
-      font-size: 60%;
+      font-size: 50%;
     }
   }
 
+  /*Mediaquery para que el menu se despliegue a la derecha*/
   @media screen and (max-width: 991px) {
     .styleLinks {
       display: flex;
-      justify-content: flex-start;
-      align-items: center;
-    }
-    .styleNav {
-      display: flex;
-      justify-content: space-between;
+      justify-content: end;
+      font-size: 100%;
     }
   }
 }

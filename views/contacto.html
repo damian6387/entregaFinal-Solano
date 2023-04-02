@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@600&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&display=swap"
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="../img/favicon.ico" />
@@ -58,7 +58,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse styleLinks" id="navbarNav">
-                  <ul class="navbar-nav">
+                  <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                       <a
                         class="nav-link styleFont"
@@ -103,29 +103,30 @@
     <main class="principalImage">
       <div class="formPosition">
         <div class="overviewStyle">
-          <div class="form-floating mb-3">
+          <div class="mb-3 paddingStyle">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email</label
+            >
             <input
               type="email"
               class="form-control"
-              id="floatingInputDisabled"
-              placeholder="name@example.com"
-              disabled
+              id="exampleFormControlInput1"
+              placeholder=""
             />
-            <label for="floatingInputDisabled">Email</label>
           </div>
-
-          <div class="form-floating mb-3">
+          <div class="mb-3 paddingStyle">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Comentarios</label
+            >
             <textarea
               class="form-control"
-              placeholder="Leave a comment here"
-              id="floatingTextarea2Disabled"
-              style="height: 100px"
-              disabled
+              id="exampleFormControlTextarea1"
+              rows="3"
             ></textarea>
-            <label for="floatingTextarea2Disabled">Comentarios</label>
           </div>
-
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="submit" class="btn btn-primary buttonStyle">
+            Enviar
+          </button>
         </div>
       </div>
     </main>
